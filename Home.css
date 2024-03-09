@@ -95,12 +95,12 @@ p{
     flex-direction: column;
     align-items: center;
     margin: 5px;
-    box-shadow: rgba(44, 46, 47, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .card1 h3{
-    
-    font-family: "Press Start 2P", system-ui;
     margin-top: 16px;
+    font-weight: 600;
+    font-style:  normal;
+    color: black;
 }
 .button-74 {
     background-color: #fbeee0;
@@ -122,7 +122,7 @@ p{
   }
   
   .button-74:hover {
-    background-color: #fff;
+    background-color: #eccdab;
   }
   
   .button-74:active {
