@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style:  normal;
+    color: black;
+}
+
+p{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style:  normal; 
+    color: black;
+}
+.container{
+    max-width: 1540px;
+}
+.logo{
+    padding-top: 10px;
+}
+.logo img{
+    border-radius: 20%;
+}
+.nav{
+    display: flex;
+    padding-left: 30px;
+    line-height: 40px;
+    background-color: #D2042D /*fcbc98*/
+}
+.nav ul{
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+}
+.nav ul li{
+    list-style-type: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.nav >a{
+    padding-right: 40px;
+}
+.nav ul li a:hover{
+    color: #000;
+    background-color: #fff;
+    padding:5px 5px;
+}
+.lastlink {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 10px;
+}
+/*-------navabr end ------*/
+.banner{
+        background-size: contain;
+        text-align: center;
+        padding: 50px 0;
+
+    }
+
+    .banner h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .banner p {
+        font-size: 18px;
+        margin-bottom: 00px;
+    }
+/*-------banner section end ------*/
+
+
+/* -----card section-------------- */
+.card-container{
+    width: 100%;
+    height: 100%;
+    gap: 7px;
+}
+.card1{
+    float: left;
+    width: 358px;
+    height: 442px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    box-shadow: rgba(44, 46, 47, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.card1 h3{
+    
+    font-family: "Press Start 2P", system-ui;
+    margin-top: 16px;
+}
+.button-74 {
+    background-color: #fbeee0;
+    border: 2px solid #D2042D;
+    border-radius: 30px;
+    box-shadow: #D2042D 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-74:hover {
+    background-color: #fff;
+  }
+  
+  .button-74:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-74 {
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }
